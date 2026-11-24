@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#191919">
+<meta name="robots" content="noindex">
+<title>Modo Ranking HNP</title>
+<style>
+:root{--bg:#191919;--card:#202020;--line:#2c2c2c;--txt:#e8e8e8;--mut:#9b9b9b;--ouro:#d9a53d;--trilho:#333}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.45;padding:0 16px 48px}
+.wrap{max-width:640px;margin:0 auto}
+header{padding:28px 0 14px}
+h1{font-size:26px;line-height:1.2;font-weight:700;letter-spacing:-.01em}
+.sub{color:var(--mut);font-size:13px;margin-top:8px}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin:10px 0 12px;position:sticky;top:0;background:var(--bg);padding-top:8px;z-index:2}
+.tab{flex:1;background:none;border:0;color:var(--mut);font:inherit;font-weight:600;padding:10px 6px;border-radius:8px 8px 0 0;cursor:pointer}
+.tab[aria-selected=true]{color:var(--txt);background:#262626;box-shadow:inset 0 -2px 0 var(--ouro)}
+.busca{width:100%;background:#232323;border:1px solid var(--line);border-radius:10px;color:var(--txt);font:inherit;padding:10px 12px;margin-bottom:10px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.chip{background:#232323;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{color:var(--txt);border-color:var(--ouro)}
+.lista{list-style:none}
+.item{border-bottom:1px solid var(--line)}
+.linha{display:block;width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;padding:14px 0;cursor:pointer}
+.topo{display:flex;align-items:baseline;gap:8px}
+.pos{color:var(--mut);font-size:13px;min-width:30px}
+.nome{font-weight:600;font-size:16px;flex:1;min-width:0;overflow-wrap:anywhere}
+.pts{font-weight:700;font-size:17px;white-space:nowrap}.pts small{color:var(--mut);font-weight:400;font-size:12px;margin-left:2px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0 38px}
+.b{border-radius:999px;padding:2px 10px;font-size:12px;font-weight:500;color:#fff;white-space:nowrap}
+.barra{display:flex;align-items:center;gap:8px;margin:9px 0 0 38px}
+.trilho{flex:1;max-width:180px;height:7px;border-radius:99px;background:var(--trilho);position:relative}
+.enche{height:7px;border-radius:99px;background:var(--ouro)}
+.num{font-size:12px;color:var(--mut)}
+.det{display:none;margin:0 0 16px 38px}
+.item.aberto .det{display:block}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;max-width:280px;margin-top:4px}
+.dia{aspect-ratio:1;border-radius:6px;background:#262626;font-size:11px;display:flex;align-items:center;justify-content:center;color:#6f6f6f}
+.dia.w{background:#2f9e5f;color:#fff}.dia.d{background:#5865f2;color:#fff}.dia.f{opacity:.35}
+.leg{font-size:12px;color:var(--mut);margin-top:8px;display:flex;gap:12px;flex-wrap:wrap}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.vazio{color:var(--mut);font-size:13px;padding:24px 0;text-align:center}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.card>.linha{padding:14px}
+.meta{color:var(--mut);font-size:13px;margin-top:4px}
+.pessoa{margin-top:12px}
+.pessoa .nm{display:flex;justify-content:space-between;font-size:14px}
+.pessoa .trilho{max-width:none;margin-top:5px}
+.card .det{margin:0;padding:0 14px 14px;border-top:1px solid var(--line)}
+.card.aberto .det{display:block}
+h3{font-size:14px;margin:14px 0 6px}
+.dias{list-style:none;font-size:13px}
+.dias li{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px dashed #2a2a2a}
+.dias li span:first-child:before{content:"✓ ";color:#2f9e5f}
+.mais{background:none;border:0;color:var(--ouro);font:inherit;font-size:13px;padding:8px 0;cursor:pointer}
+.hist{list-style:none;font-size:13px}
+.hist li{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:8px 0;border-bottom:1px solid #2a2a2a}
+.hist .f{color:var(--mut);font-size:12px}
+details.arq{margin-top:18px;color:var(--mut)}
+details.arq summary{cursor:pointer;padding:8px 0;font-weight:600}
+details.arq li{list-style:none;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}
+details.arq b{color:var(--txt);font-weight:600}
+.seta{color:var(--mut);font-size:18px;line-height:1;margin-left:6px;transition:transform .15s;display:inline-block}
+.aberto .seta{transform:rotate(90deg)}
+footer{color:#6f6f6f;font-size:12px;margin-top:28px;text-align:center}
+@media (min-width:700px){h1{font-size:32px}header{padding-top:44px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>🏆 modo ranking: meta de 17pts</h1>
+<p class="sub">Atualizado em 15 de novembro de 2026 · prints contados até 14/11 · ciclo de 27/10 a 23/11</p>
+</header>
+<div class="tabs" role="tablist">
+<button class="tab" role="tab" aria-selected="true" data-aba="rk">🏅 Ranking</button>
+<button class="tab" role="tab" aria-selected="false" data-aba="tp">👥 Top 10 humilders</button>
+</div>
+<input class="busca" type="search" placeholder="Procurar seu nome…" aria-label="Procurar nome">
+<div class="chips" id="chips">
+<button class="chip" aria-pressed="true" data-f="">Todos</button>
+<button class="chip" aria-pressed="false" data-f="Consquistei">🏆 Conquistaram</button>
+<button class="chip" aria-pressed="false" data-f="Disputando">Disputando</button>
+<button class="chip" aria-pressed="false" data-f="Assistindo">Assistindo</button>
+</div>
+<ul class="lista" id="lista"></ul>
+<footer>Hoje Não Procrastino</footer>
+</div>
+<script>const DADOS={"meta":17,"atualizado":"15 de novembro de 2026","contagemAte":"2026-11-14","dias":["2026-10-27","2026-10-28","2026-10-29","2026-10-30","2026-10-31","2026-11-01","2026-11-02","2026-11-03","2026-11-04","2026-11-05","2026-11-06","2026-11-07","2026-11-08","2026-11-09","2026-11-10","2026-11-11","2026-11-12","2026-11-13","2026-11-14","2026-11-15","2026-11-16","2026-11-17","2026-11-18","2026-11-19","2026-11-20","2026-11-21","2026-11-22","2026-11-23"],"pessoas":[{"pos":1,"nome":"Júlia E","pts":18,"status":"Consquistei","exp":"Mag'o, Aprendiz","acum":62,"feitos":[["2026-10-27","w"],["2026-10-28","w"],["2026-10-29","w"],["2026-10-30","w"],["2026-10-31","w"],["2026-11-01","w"],["2026-11-02","w"],["2026-11-03","w"],["2026-11-04","w"],["2026-11-05","w"],["2026-11-07","w"],["2026-11-08","w"],["2026-11-09","w"],["2026-11-10","w"],["2026-11-11","w"],["2026-11-12","w"],["2026-11-13","w"],["2026-11-14","w"]]},{"pos":2,"nome":"Lisiane","pts":18,"status":"Consquistei","exp":"Mag'o, Soberano","acum":120,"feitos":[["2026-10-27","w"],["2026-10-28","w"],["2026-10-29","w"],["2026-10-30","w"],["2026-10-31","w"],["2026-11-01","w"],["2026-11-02","w"],["2026-11-03","w"],["2026-11-04","w"],["2026-11-05","w"],["2026-11-06","w"],["2026-11-07","w"],["2026-11-09","w"],["2026-11-10","w"],["2026-11-11","w"],["2026-11-12","w"],["2026-11-13","w"],["2026-11-14","w"]]},{"pos":3,"nome":"Amanda Ribeiro","pts":17,"status":"Consquistei","exp":"Mag'o ⭐⭐⭐, Herói","acum":281,"feitos":[["2026-10-27","w"],["2026-10-28","w"],["2026-10-29","w"],["2026-10-30","w"],["2026-10-31","w"],["2026-11-01","w"],["2026-11-02","w"],["2026-11-03","w"],["2026-11-04","w"],["2026-11-05","w"],["2026-11-06","w"],["2026-11-09","w"],["2026-11-10","w"],["2026-11-11","w"],["2026-11-12","w"],["2026-11-13","w"],["2026-11-14","w"]]},{"pos":4,"nome":"Mariana Farias","pts":16,"status":"Disputando","exp":"Mag'o ⭐⭐⭐⭐, Épico","acum":391,"feitos":[["2026-10-27","w"],["2026-10-28","w"],["2026-10-29","w"],["2026-10-31","d"],["2026-11-01","d"],["2026-11-02","d"],["2026-11-03","d"],["2026-11-04","d"],["2026-11-05","d"],["2026-11-08","d"],["2026-11-09","d"],["2026-11-10","d"],["2026-11-11","d"],["2026-11-12","d"],["2026-11-13","d"],["2026-11-14","d"]]},{"pos":5,"nome":"Ana, AL","pts":14,"status":"Disputando","exp":"Mag'o HEXA, Especialista","acum":510,"feitos":[["2026-10-27","d"],["2026-10-28","d"],["2026-10-30","d"],["2026-10-31","d"],["2026-11-01","d"],["2026-11-02","d"],["2026-11-03","d"],["2026-11-04","d"],["2026-11-05","d"],["2026-11-06","d"],["2026-11-11","d"],["2026-11-12","d"],["2026-11-13","d"],["2026-11-14","d"]]},{"pos":6,"nome":"Luíza","pts":14,"status":"Disputando","exp":"Mag'o, Soberano","acum":124,"feitos":[["2026-10-28","w"],["2026-10-29","w"],["2026-10-30","w"],["2026-10-31","w"],["2026-11-02","w"],["2026-11-03","w"],["2026-11-04","w"],["2026-11-05","w"],["2026-11-06","w"],["2026-11-07","w"],["2026-11-08","w"],["2026-11-09","w"],["2026-11-12","w"],["2026-11-13","w"]]},{"pos":7,"nome":"Patrícia Madeira","pts":13,"status":"Disputando","exp":"Veterano","acum":9,"feitos":[["2026-10-27","w"],["2026-10-28","w"],["2026-10-29","w"],["2026-10-30","w"],["2026-10-31","w"],["2026-11-02","w"],["2026-11-03","w"],["2026-11-05","w"],["2026-11-06","w"],["2026-11-07","w"],["2026-11-09","w"],["2026-11-10","w"],["2026-11-12","w"]]},{"pos":8,"nome":"Luiz Gustavo","pts":10,"status":"Disputando","exp":"Herói","acum":5,"feitos":[["2026-10-28","w"],["2026-10-29","w"],["2026-10-30","w"],["2026-11-04","w"],["2026-11-07","w"],["2026-11-08","w"],["2026-11-09","w"],["2026-11-10","w"],["2026-11-11","w"],["2026-11-12","w"]]},{"pos":9,"nome":"Érika","pts":7,"status":"Disputando","exp":"Mag'o, Aprendiz","acum":73,"feitos":[["2026-11-02","w"],["2026-11-04","w"],["2026-11-05","w"],["2026-11-07","w"],["2026-11-10","w"],["2026-11-11","w"],["2026-11-13","w"]]},{"pos":10,"nome":"Veu","pts":5,"status":"Disputando","exp":"Mag'o ⭐⭐⭐⭐⭐, Herói","acum":433,"feitos":[["2026-11-02","d"],["2026-11-04","d"],["2026-11-11","d"],["2026-11-12","d"],["2026-11-13","d"]]},{"pos":11,"nome":"Adna","pts":1,"status":"Disputando","exp":"Mag'o, Iniciante","acum":69,"feitos":[["2026-10-27","w"]]},{"pos":12,"nome":"Cíntia Bispo","pts":1,"status":"Disputando","exp":"Herói","acum":14,"feitos":[["2026-11-05","w"]]},{"pos":13,"nome":"Carol Azenha","pts":0,"status":"Disputando","exp":"Mag'o ⭐⭐⭐, Lenda","acum":259,"feitos":[]},{"pos":14,"nome":"Hebert","pts":0,"status":"Disputando","exp":"Mag'o ⭐⭐⭐⭐⭐, Épico","acum":480,"feitos":[]},{"pos":15,"nome":"Larissa Mattos","pts":0,"status":"Disputando","exp":"Veterano","acum":24,"feitos":[]},{"pos":16,"nome":"Taciane","pts":0,"status":"Disputando","exp":"Mag'o ⭐⭐⭐⭐, Elite","acum":398,"feitos":[]},{"pos":17,"nome":"Águeda","pts":0,"status":"Assistindo","exp":"Herói","acum":10,"feitos":[]},{"pos":18,"nome":"Alicia Gomes","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":9,"feitos":[]},{"pos":19,"nome":"Alinik","pts":0,"status":"Assistindo","exp":"Iniciante","acum":1,"feitos":[]},{"pos":20,"nome":"Amanda Araújo","pts":0,"status":"Assistindo","exp":"Especialista","acum":30,"feitos":[]},{"pos":21,"nome":"Ana Morais","pts":0,"status":"Assistindo","exp":"Mag'o ⭐⭐⭐, Elite","acum":246,"feitos":[]},{"pos":22,"nome":"Ana Paula","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":12,"feitos":[]},{"pos":23,"nome":"Ana, RS","pts":0,"status":"Assistindo","exp":"Mag'o, Veterano","acum":64,"feitos":[]},{"pos":24,"nome":"Andreza Rodrigues","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":25,"nome":"Angélica","pts":0,"status":"Assistindo","exp":"Mag'o, Lenda","acum":121,"feitos":[]},{"pos":26,"nome":"Ariane","pts":0,"status":"Assistindo","exp":"Mag'o, Aprendiz","acum":78,"feitos":[]},{"pos":27,"nome":"Bárbara","pts":0,"status":"Assistindo","exp":"Iniciante","acum":5,"feitos":[]},{"pos":28,"nome":"Brenda","pts":0,"status":"Assistindo","exp":"Iniciante","acum":5,"feitos":[]},{"pos":29,"nome":"Bruna","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":13,"feitos":[]},{"pos":30,"nome":"Bruna/PE","pts":0,"status":"Assistindo","exp":"Lenda","acum":42,"feitos":[]},{"pos":31,"nome":"Camila","pts":0,"status":"Assistindo","exp":"Herói","acum":20,"feitos":[]},{"pos":32,"nome":"Camila Faria","pts":0,"status":"Assistindo","exp":"Lenda","acum":49,"feitos":[]},{"pos":33,"nome":"Camila Rodrigues","pts":0,"status":"Assistindo","exp":"Iniciante","acum":2,"feitos":[]},{"pos":34,"nome":"Carla","pts":0,"status":"Assistindo","exp":"Herói","acum":19,"feitos":[]},{"pos":35,"nome":"Carlos","pts":0,"status":"Assistindo","exp":"Especialista","acum":31,"feitos":[]},{"pos":36,"nome":"Carolina A","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":37,"nome":"Cinthia Lara","pts":0,"status":"Assistindo","exp":"Lenda","acum":54,"feitos":[]},{"pos":38,"nome":"Cintia Botelho","pts":0,"status":"Assistindo","exp":"Mag'o, Aprendiz","acum":83,"feitos":[]},{"pos":39,"nome":"Clara Mlsa","pts":0,"status":"Assistindo","exp":"Iniciante","acum":2,"feitos":[]},{"pos":40,"nome":"Cristiane Gonçalves","pts":0,"status":"Assistindo","exp":"Iniciante","acum":5,"feitos":[]},{"pos":41,"nome":"Crys","pts":0,"status":"Assistindo","exp":"Herói","acum":20,"feitos":[]},{"pos":42,"nome":"Dani","pts":0,"status":"Assistindo","exp":"Mag'o ⭐, Soberano","acum":140,"feitos":[]},{"pos":43,"nome":"Daniel","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":13,"feitos":[]},{"pos":44,"nome":"Daniel Almeida","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":11,"feitos":[]},{"pos":45,"nome":"Daniele da Silva Goncalves","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":46,"nome":"Dayane Matos","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":47,"nome":"Denise","pts":0,"status":"Assistindo","exp":"Iniciante","acum":3,"feitos":[]},{"pos":48,"nome":"Diana","pts":0,"status":"Assistindo","exp":"Iniciante","acum":2,"feitos":[]},{"pos":49,"nome":"Domingos","pts":0,"status":"Assistindo","exp":"Especialista","acum":32,"feitos":[]},{"pos":50,"nome":"Elaine","pts":0,"status":"Assistindo","exp":"Mag'o, Mestre","acum":106,"feitos":[]},{"pos":51,"nome":"Eliane Carvalho","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":13,"feitos":[]},{"pos":52,"nome":"Emmily","pts":0,"status":"Assistindo","exp":"Iniciante","acum":1,"feitos":[]},{"pos":53,"nome":"Felipe","pts":0,"status":"Assistindo","exp":"Mag'o ⭐, Especialista","acum":199,"feitos":[]},{"pos":54,"nome":"Felipe Assunção","pts":0,"status":"Assistindo","exp":"Iniciante","acum":2,"feitos":[]},{"pos":55,"nome":"Fernanda","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":12,"feitos":[]},{"pos":56,"nome":"Fran","pts":0,"status":"Assistindo","exp":"Mag'o, Veterano","acum":99,"feitos":[]},{"pos":57,"nome":"Franci","pts":0,"status":"Assistindo","exp":"Iniciante","acum":1,"feitos":[]},{"pos":58,"nome":"Gabriela dos Santos","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":59,"nome":"Giovanna","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":12,"feitos":[]},{"pos":60,"nome":"Gisele","pts":0,"status":"Assistindo","exp":"Herói","acum":21,"feitos":[]},{"pos":61,"nome":"Hai","pts":0,"status":"Assistindo","exp":"Herói","acum":15,"feitos":[]},{"pos":62,"nome":"Isabela","pts":0,"status":"Assistindo","exp":"Herói","acum":16,"feitos":[]},{"pos":63,"nome":"Jacke","pts":0,"status":"Assistindo","exp":"Mag'o, Soberano","acum":151,"feitos":[]},{"pos":64,"nome":"Joy","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":13,"feitos":[]},{"pos":65,"nome":"Júlia Stange","pts":0,"status":"Assistindo","exp":"Iniciante","acum":5,"feitos":[]},{"pos":66,"nome":"Juliana","pts":0,"status":"Assistindo","exp":"Mag'o, Herói","acum":102,"feitos":[]},{"pos":67,"nome":"Karol","pts":0,"status":"Assistindo","exp":"Mag'o, Elite","acum":108,"feitos":[]},{"pos":68,"nome":"Larissa Schulz","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":69,"nome":"Letícia","pts":0,"status":"Assistindo","exp":"Mag'o, Épico","acum":141,"feitos":[]},{"pos":70,"nome":"Letícia Yonekura","pts":0,"status":"Assistindo","exp":"Mestre","acum":51,"feitos":[]},{"pos":71,"nome":"Lícia","pts":0,"status":"Assistindo","exp":"Veterano","acum":26,"feitos":[]},{"pos":72,"nome":"Lívia","pts":0,"status":"Assistindo","exp":"Elite","acum":42,"feitos":[]},{"pos":73,"nome":"Luís","pts":0,"status":"Assistindo","exp":"Iniciante","acum":1,"feitos":[]},{"pos":74,"nome":"Maíra","pts":0,"status":"Assistindo","exp":"Iniciante","acum":1,"feitos":[]},{"pos":75,"nome":"Mariana Cordeiro","pts":0,"status":"Assistindo","exp":"Veterano","acum":27,"feitos":[]},{"pos":76,"nome":"Mariana Pacheco","pts":0,"status":"Assistindo","exp":"Especialista","acum":29,"feitos":[]},{"pos":77,"nome":"Mariana Patrocínio","pts":0,"status":"Assistindo","exp":"Mestre","acum":40,"feitos":[]},{"pos":78,"nome":"Michelle","pts":0,"status":"Assistindo","exp":"Especialista","acum":37,"feitos":[]},{"pos":79,"nome":"Mirela","pts":0,"status":"Assistindo","exp":"Especialista","acum":28,"feitos":[]},{"pos":80,"nome":"Nat Pantaleão","pts":0,"status":"Assistindo","exp":"Iniciante","acum":5,"feitos":[]},{"pos":81,"nome":"Natália","pts":0,"status":"Assistindo","exp":"Mestre","acum":38,"feitos":[]},{"pos":82,"nome":"Nayra","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":83,"nome":"Neftali","pts":0,"status":"Assistindo","exp":"Soberano","acum":63,"feitos":[]},{"pos":84,"nome":"Nícia","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":85,"nome":"Paola","pts":0,"status":"Assistindo","exp":"Mag'o ⭐, Épico","acum":197,"feitos":[]},{"pos":86,"nome":"Patrícia","pts":0,"status":"Assistindo","exp":"Veterano","acum":29,"feitos":[]},{"pos":87,"nome":"Rafael","pts":0,"status":"Assistindo","exp":"Elite","acum":43,"feitos":[]},{"pos":88,"nome":"Rafael Eduardo","pts":0,"status":"Assistindo","exp":"Aprendiz","acum":10,"feitos":[]},{"pos":89,"nome":"Raíssa","pts":0,"status":"Assistindo","exp":"Veterano","acum":29,"feitos":[]},{"pos":90,"nome":"Raíssa G","pts":0,"status":"Assistindo","exp":"Veterano","acum":21,"feitos":[]},{"pos":91,"nome":"Raíssa Sena","pts":0,"status":"Assistindo","exp":"Iniciante","acum":2,"feitos":[]},{"pos":92,"nome":"Rodrigo","pts":0,"status":"Assistindo","exp":"Veterano","acum":23,"feitos":[]},{"pos":93,"nome":"Samira","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":94,"nome":"Sanny","pts":0,"status":"Assistindo","exp":"Mag'o ⭐, Lenda","acum":121,"feitos":[]},{"pos":95,"nome":"Simone Ribeiro","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]},{"pos":96,"nome":"Sylas","pts":0,"status":"Assistindo","exp":"Mag'o ⭐⭐⭐⭐, Elite","acum":322,"feitos":[]},{"pos":97,"nome":"Thainá","pts":0,"status":"Assistindo","exp":"Veterano","acum":26,"feitos":[]},{"pos":98,"nome":"Vanessa","pts":0,"status":"Assistindo","exp":"Elite","acum":33,"feitos":[]},{"pos":99,"nome":"Wanessa","pts":0,"status":"Assistindo","exp":"Especialista","acum":33,"feitos":[]},{"pos":100,"nome":"Yasmin","pts":0,"status":"Assistindo","exp":"Elite","acum":53,"feitos":[]},{"pos":101,"nome":"Zabelle Cabral","pts":0,"status":"Assistindo","exp":"Iniciante","acum":0,"feitos":[]}]};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const TIER={"Mag'o":"#2b4a7a","Herói":"#8a5a2b","Veterano":"#7a3a5a","Especialista":"#5a3a8a","Soberano":"#2a6a4a","Épico":"#8a4a1a","Mestre":"#7a5a2a","Elite":"#7a2a4a","Lenda":"#3a5a7a","Aprendiz":"#4a4a4a","Iniciante":"#4a4a4a"};
+const ST={Consquistei:"#2f9e5f",Disputando:"#3d7fd9",Assistindo:"#5a5a4a"};
+const cor=v=>{const k=Object.keys(TIER).find(t=>v.toLowerCase().includes(t.toLowerCase()));return TIER[k]||"#4a4a4a"};
+const badgesExp=e=>e.split(',').map(s=>s.trim()).filter(Boolean).map(s=>'<span class="b" style="background:'+cor(s)+'">'+esc(s)+'</span>').join('');
+let aba='rk',filtro='',q='';
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+function cal(p){const m=Object.fromEntries(p.feitos);const ate=DADOS.contagemAte;
+ return '<div class="cal">'+DADOS.dias.map(d=>{const c=m[d]||'';return '<div class="dia '+c+(d>ate?' f':'')+'" title="'+d.split('-').reverse().join('/')+'">'+(+d.slice(8))+'</div>'}).join('')+'</div>'+
+ '<div class="leg"><span><i style="background:#2f9e5f"></i>WhatsApp</span><span><i style="background:#5865f2"></i>Discord</span><span>'+p.feitos.length+' feito'+(p.feitos.length===1?'':'s')+' no ciclo</span></div>';}
+function render(){
+ const L=document.getElementById('lista');const qq=norm(q);
+ document.getElementById('chips').style.display=aba==='rk'?'':'none';
+ let arr;
+ if(aba==='rk'){arr=DADOS.pessoas.filter(p=>(!filtro||p.status===filtro)&&(!qq||norm(p.nome).includes(qq)));
+  L.innerHTML=arr.map(p=>{const pct=Math.min(100,p.pts/DADOS.meta*100);
+   return '<li class="item"><button class="linha" aria-expanded="false"><div class="topo"><span class="pos">'+p.pos+'º</span><span class="nome">'+esc(p.nome)+(p.status==='Consquistei'?' 🏆':'')+'<span class="seta">›</span></span><span class="pts">'+p.pts+'<small>pts</small></span></div>'+
+   '<div class="badges">'+badgesExp(p.exp)+'<span class="b" style="background:'+ST[p.status]+'">'+esc(p.status)+'</span></div>'+
+   '<div class="barra"><div class="trilho"><div class="enche" style="width:'+pct+'%"></div></div><span class="num">'+p.pts+'/'+DADOS.meta+'</span></div></button>'+
+   '<div class="det">'+cal(p)+'</div></li>'}).join('')||'<li class="vazio">Ninguém encontrado.</li>';
+ }else{
+  const top=DADOS.pessoas.filter(p=>p.acum>=1).sort((a,b)=>b.acum-a.acum||a.nome.localeCompare(b.nome,'pt'));
+  arr=top.map((p,i)=>({...p,tp:i+1})).filter(p=>!qq||norm(p.nome).includes(qq));
+  L.innerHTML=arr.map(p=>'<li class="item"><div class="linha" style="cursor:default"><div class="topo"><span class="pos">'+p.tp+'º</span><span class="nome">'+esc(p.nome)+'</span><span class="pts">'+p.acum+'<small>acumulados</small></span></div><div class="badges">'+badgesExp(p.exp)+'</div></div></li>').join('')||'<li class="vazio">Ninguém encontrado.</li>';
+ }
+}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{aba=b.dataset.aba;document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b));render()});
+document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{filtro=b.dataset.f;document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render()});
+document.querySelector('.busca').oninput=e=>{q=e.target.value;render()};
+document.getElementById('lista').addEventListener('click',e=>{const b=e.target.closest('button.linha');if(!b)return;const li=b.parentElement;const ab=li.classList.toggle('aberto');b.setAttribute('aria-expanded',ab)});
+render();
+</script>
+</body>
+</html>

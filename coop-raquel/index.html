@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#191919">
+<meta name="robots" content="noindex">
+<title>Modo CO-OP · Raquel</title>
+<style>
+:root{--bg:#191919;--card:#202020;--line:#2c2c2c;--txt:#e8e8e8;--mut:#9b9b9b;--ouro:#d9a53d;--trilho:#333}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.45;padding:0 16px 48px}
+.wrap{max-width:640px;margin:0 auto}
+header{padding:28px 0 14px}
+h1{font-size:26px;line-height:1.2;font-weight:700;letter-spacing:-.01em}
+.sub{color:var(--mut);font-size:13px;margin-top:8px}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin:10px 0 12px;position:sticky;top:0;background:var(--bg);padding-top:8px;z-index:2}
+.tab{flex:1;background:none;border:0;color:var(--mut);font:inherit;font-weight:600;padding:10px 6px;border-radius:8px 8px 0 0;cursor:pointer}
+.tab[aria-selected=true]{color:var(--txt);background:#262626;box-shadow:inset 0 -2px 0 var(--ouro)}
+.busca{width:100%;background:#232323;border:1px solid var(--line);border-radius:10px;color:var(--txt);font:inherit;padding:10px 12px;margin-bottom:10px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.chip{background:#232323;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{color:var(--txt);border-color:var(--ouro)}
+.lista{list-style:none}
+.item{border-bottom:1px solid var(--line)}
+.linha{display:block;width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;padding:14px 0;cursor:pointer}
+.topo{display:flex;align-items:baseline;gap:8px}
+.pos{color:var(--mut);font-size:13px;min-width:30px}
+.nome{font-weight:600;font-size:16px;flex:1;min-width:0;overflow-wrap:anywhere}
+.pts{font-weight:700;font-size:17px;white-space:nowrap}.pts small{color:var(--mut);font-weight:400;font-size:12px;margin-left:2px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0 38px}
+.b{border-radius:999px;padding:2px 10px;font-size:12px;font-weight:500;color:#fff;white-space:nowrap}
+.barra{display:flex;align-items:center;gap:8px;margin:9px 0 0 38px}
+.trilho{flex:1;max-width:180px;height:7px;border-radius:99px;background:var(--trilho);position:relative}
+.enche{height:7px;border-radius:99px;background:var(--ouro)}
+.num{font-size:12px;color:var(--mut)}
+.det{display:none;margin:0 0 16px 38px}
+.item.aberto .det{display:block}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;max-width:280px;margin-top:4px}
+.dia{aspect-ratio:1;border-radius:6px;background:#262626;font-size:11px;display:flex;align-items:center;justify-content:center;color:#6f6f6f}
+.dia.w{background:#2f9e5f;color:#fff}.dia.d{background:#5865f2;color:#fff}.dia.f{opacity:.35}
+.leg{font-size:12px;color:var(--mut);margin-top:8px;display:flex;gap:12px;flex-wrap:wrap}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.vazio{color:var(--mut);font-size:13px;padding:24px 0;text-align:center}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.card>.linha{padding:14px}
+.meta{color:var(--mut);font-size:13px;margin-top:4px}
+.pessoa{margin-top:12px}
+.pessoa .nm{display:flex;justify-content:space-between;font-size:14px}
+.pessoa .trilho{max-width:none;margin-top:5px}
+.card .det{margin:0;padding:0 14px 14px;border-top:1px solid var(--line)}
+.card.aberto .det{display:block}
+h3{font-size:14px;margin:14px 0 6px}
+.dias{list-style:none;font-size:13px}
+.dias li{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px dashed #2a2a2a}
+.dias li span:first-child:before{content:"✓ ";color:#2f9e5f}
+.mais{background:none;border:0;color:var(--ouro);font:inherit;font-size:13px;padding:8px 0;cursor:pointer}
+.hist{list-style:none;font-size:13px}
+.hist li{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:8px 0;border-bottom:1px solid #2a2a2a}
+.hist .f{color:var(--mut);font-size:12px}
+details.arq{margin-top:18px;color:var(--mut)}
+details.arq summary{cursor:pointer;padding:8px 0;font-weight:600}
+details.arq li{list-style:none;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}
+details.arq b{color:var(--txt);font-weight:600}
+.seta{color:var(--mut);font-size:18px;line-height:1;margin-left:6px;transition:transform .15s;display:inline-block}
+.aberto .seta{transform:rotate(90deg)}
+footer{color:#6f6f6f;font-size:12px;margin-top:28px;text-align:center}
+@media (min-width:700px){h1{font-size:32px}header{padding-top:44px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>🤝 modo CO-OP — duplas (Raquel)</h1>
+<p class="sub">Atualizado em 15 de novembro de 2026 · toque numa dupla para ver os dias de estudo e o histórico</p>
+</header>
+<div id="lista"></div>
+
+<footer>Hoje Não Procrastino</footer>
+</div>
+<script>const DADOS={"atualizado":"15 de novembro de 2026","ativas":[{"dupla":"Mariana Patrocínio & Carolina","slug":"mariana-p-e-carolina","ciclo":3,"ciclosCompletos":2,"fase":"Fase 1","meta":3,"pessoas":[{"nome":"Mariana Patrocínio","feitos":2,"dias":[{"data":"18/09/2026","duracaoMin":60},{"data":"21/09/2026","duracaoMin":80},{"data":"22/09/2026","duracaoMin":80},{"data":"23/09/2026","duracaoMin":65},{"data":"24/09/2026","duracaoMin":60},{"data":"25/09/2026","duracaoMin":110},{"data":"26/09/2026","duracaoMin":80},{"data":"27/09/2026","duracaoMin":60},{"data":"28/09/2026","duracaoMin":137},{"data":"29/09/2026","duracaoMin":135},{"data":"30/09/2026","duracaoMin":40},{"data":"01/10/2026","duracaoMin":43},{"data":"02/10/2026","duracaoMin":50},{"data":"06/10/2026","duracaoMin":50},{"data":"08/10/2026","duracaoMin":80},{"data":"10/10/2026","duracaoMin":70},{"data":"11/10/2026","duracaoMin":56},{"data":"12/10/2026","duracaoMin":30},{"data":"13/10/2026","duracaoMin":50},{"data":"17/10/2026","duracaoMin":45},{"data":"18/10/2026","duracaoMin":50},{"data":"19/10/2026","duracaoMin":50},{"data":"20/10/2026","duracaoMin":30},{"data":"21/10/2026","duracaoMin":64},{"data":"27/10/2026","duracaoMin":60},{"data":"28/10/2026","duracaoMin":103},{"data":"29/10/2026","duracaoMin":119},{"data":"30/10/2026","duracaoMin":75},{"data":"31/10/2026","duracaoMin":40},{"data":"01/11/2026","duracaoMin":40},{"data":"02/11/2026","duracaoMin":86},{"data":"03/11/2026","duracaoMin":75},{"data":"04/11/2026","duracaoMin":70},{"data":"05/11/2026","duracaoMin":40},{"data":"06/11/2026","duracaoMin":80},{"data":"07/11/2026","duracaoMin":40},{"data":"09/11/2026","duracaoMin":100},{"data":"11/11/2026","duracaoMin":45}]},{"nome":"Carolina","feitos":6,"dias":[{"data":"18/09/2026","duracaoMin":186},{"data":"21/09/2026","duracaoMin":162},{"data":"22/09/2026","duracaoMin":81},{"data":"23/09/2026","duracaoMin":189},{"data":"24/09/2026","duracaoMin":224},{"data":"25/09/2026","duracaoMin":149},{"data":"29/09/2026","duracaoMin":89},{"data":"30/09/2026","duracaoMin":213},{"data":"01/10/2026","duracaoMin":267},{"data":"02/10/2026","duracaoMin":94},{"data":"03/10/2026","duracaoMin":216},{"data":"05/10/2026","duracaoMin":182},{"data":"06/10/2026","duracaoMin":111},{"data":"07/10/2026","duracaoMin":172},{"data":"09/10/2026","duracaoMin":279},{"data":"10/10/2026","duracaoMin":263},{"data":"12/10/2026","duracaoMin":283},{"data":"13/10/2026","duracaoMin":115},{"data":"14/10/2026","duracaoMin":126},{"data":"15/10/2026","duracaoMin":264},{"data":"16/10/2026","duracaoMin":171},{"data":"17/10/2026","duracaoMin":98},{"data":"19/10/2026","duracaoMin":125},{"data":"20/10/2026","duracaoMin":168},{"data":"21/10/2026","duracaoMin":148},{"data":"22/10/2026","duracaoMin":233},{"data":"27/10/2026","duracaoMin":171},{"data":"28/10/2026","duracaoMin":46},{"data":"29/10/2026","duracaoMin":164},{"data":"30/10/2026","duracaoMin":169},{"data":"31/10/2026","duracaoMin":249},{"data":"02/11/2026","duracaoMin":296},{"data":"03/11/2026","duracaoMin":104},{"data":"04/11/2026","duracaoMin":238},{"data":"05/11/2026","duracaoMin":236},{"data":"06/11/2026","duracaoMin":254},{"data":"07/11/2026","duracaoMin":59},{"data":"09/11/2026","duracaoMin":208},{"data":"10/11/2026","duracaoMin":240},{"data":"11/11/2026","duracaoMin":185},{"data":"12/11/2026","duracaoMin":183},{"data":"13/11/2026","duracaoMin":99},{"data":"14/11/2026","duracaoMin":154}]}],"status":"Sim","vaiAte":"15/11/2026","historico":[{"fase":"Fase 1","meta":3,"vaiAte":"06/09/2026","feitos":[5,5],"status":"Sim"},{"fase":"Fase 3","meta":5,"vaiAte":"27/09/2026","feitos":[7,5],"status":"Sim"},{"fase":"Fase 4","meta":5,"vaiAte":"04/10/2026","feitos":[5,5],"status":"Sim"},{"fase":"Fase 1","meta":3,"vaiAte":"11/10/2026","feitos":[4,5],"status":"Sim"},{"fase":"Fase 2","meta":4,"vaiAte":"18/10/2026","feitos":[4,6],"status":"Sim"},{"fase":"Fase 3","meta":5,"vaiAte":"25/10/2026","feitos":[3,4],"status":"Não"},{"fase":"Fase 3","meta":5,"vaiAte":"01/11/2026","feitos":[6,5],"status":"Sim"},{"fase":"Fase 4","meta":5,"vaiAte":"08/11/2026","feitos":[6,6],"status":"Sim"},{"fase":"Fase 1","meta":3,"vaiAte":"15/11/2026","feitos":[2,6],"status":"Aguarde"}]},{"dupla":"Neftali & Jéssica Reis","slug":"neftali-e-jessica-reis","ciclo":1,"ciclosCompletos":0,"fase":"Fase 1","meta":3,"pessoas":[{"nome":"Neftali","feitos":0,"dias":[{"data":"06/10/2026","duracaoMin":49},{"data":"08/10/2026","duracaoMin":57},{"data":"09/10/2026","duracaoMin":23},{"data":"12/10/2026","duracaoMin":52},{"data":"14/10/2026","duracaoMin":75},{"data":"15/10/2026","duracaoMin":null},{"data":"16/10/2026","duracaoMin":null},{"data":"19/10/2026","duracaoMin":52},{"data":"20/10/2026","duracaoMin":153},{"data":"22/10/2026","duracaoMin":95},{"data":"26/10/2026","duracaoMin":138},{"data":"27/10/2026","duracaoMin":50},{"data":"28/10/2026","duracaoMin":33},{"data":"29/10/2026","duracaoMin":45},{"data":"30/10/2026","duracaoMin":34},{"data":"03/11/2026","duracaoMin":35},{"data":"04/11/2026","duracaoMin":130},{"data":"05/11/2026","duracaoMin":42},{"data":"06/11/2026","duracaoMin":76},{"data":"07/11/2026","duracaoMin":40},{"data":"12/11/2026","duracaoMin":70}]},{"nome":"Jéssica Reis","feitos":0,"dias":[]}],"status":"Não","vaiAte":"19/11/2026","historico":[{"fase":"Fase 1","meta":3,"vaiAte":"08/10/2026","feitos":[2,0],"status":"Não"},{"fase":"Fase 1","meta":3,"vaiAte":"15/10/2026","feitos":[4,0],"status":"Não"},{"fase":"Fase 1","meta":3,"vaiAte":"22/10/2026","feitos":[4,0],"status":"Não"},{"fase":"Fase 1","meta":3,"vaiAte":"29/10/2026","feitos":[4,0],"status":"Não"},{"fase":"Fase 1","meta":3,"vaiAte":"05/11/2026","feitos":[4,0],"status":"Não"},{"fase":"Fase 1","meta":3,"vaiAte":"12/11/2026","feitos":[3,0],"status":"Não"},{"fase":"Fase 1","meta":3,"vaiAte":"19/11/2026","feitos":[0,0],"status":"Aguarde"}]},{"dupla":"Larissa S & Cintia Brito","slug":"larissa-s-e-cintia-brito","ciclo":1,"ciclosCompletos":0,"fase":"Fase 2","meta":4,"pessoas":[{"nome":"Larissa S","feitos":0,"dias":[{"data":"19/09/2026","duracaoMin":136},{"data":"20/09/2026","duracaoMin":51},{"data":"22/09/2026","duracaoMin":61},{"data":"27/09/2026","duracaoMin":45},{"data":"28/09/2026","duracaoMin":48},{"data":"29/09/2026","duracaoMin":45},{"data":"30/09/2026","duracaoMin":42},{"data":"03/10/2026","duracaoMin":61},{"data":"05/10/2026","duracaoMin":42},{"data":"06/10/2026","duracaoMin":22},{"data":"26/10/2026","duracaoMin":60},{"data":"01/11/2026","duracaoMin":87},{"data":"02/11/2026","duracaoMin":43},{"data":"03/11/2026","duracaoMin":38},{"data":"05/11/2026","duracaoMin":44},{"data":"07/11/2026","duracaoMin":46}]},{"nome":"Cintia Brito","feitos":0,"dias":[{"data":"23/09/2026","duracaoMin":60},{"data":"24/09/2026","duracaoMin":60},{"data":"01/10/2026","duracaoMin":44},{"data":"06/10/2026","duracaoMin":53},{"data":"08/10/2026","duracaoMin":60},{"data":"14/10/2026","duracaoMin":60},{"data":"15/10/2026","duracaoMin":60},{"data":"19/10/2026","duracaoMin":null},{"data":"20/10/2026","duracaoMin":60},{"data":"21/10/2026","duracaoMin":null},{"data":"26/10/2026","duracaoMin":30},{"data":"03/11/2026","duracaoMin":120},{"data":"04/11/2026","duracaoMin":60},{"data":"05/11/2026","duracaoMin":145}]}],"status":"Não","vaiAte":"18/11/2026","historico":[{"fase":"Fase 1","meta":3,"vaiAte":"26/08/2026","feitos":[3,1],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"02/09/2026","feitos":[2,4],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"23/09/2026","feitos":[3,1],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"30/09/2026","feitos":[4,1],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"07/10/2026","feitos":[3,2],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"14/10/2026","feitos":[0,2],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"21/10/2026","feitos":[0,4],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"28/10/2026","feitos":[1,1],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"04/11/2026","feitos":[3,2],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"11/11/2026","feitos":[2,1],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"18/11/2026","feitos":[0,0],"status":"Aguarde"}]},{"dupla":"Larissa S & Daniele Silva","slug":"larissa-s-e-daniele-silva","ciclo":1,"ciclosCompletos":0,"fase":"Fase 1","meta":3,"pessoas":[{"nome":"Larissa S","feitos":0,"dias":[]},{"nome":"Daniele Silva","feitos":1,"dias":[{"data":"13/11/2026","duracaoMin":41}]}],"status":"Aguarde","vaiAte":"18/11/2026","historico":[{"fase":"Fase 1","meta":3,"vaiAte":"18/11/2026","feitos":[0,1],"status":"Aguarde"}]},{"dupla":"Patrícia & Luíza","slug":"patricia-e-luiza","ciclo":2,"ciclosCompletos":1,"fase":"Fase 1","meta":3,"pessoas":[{"nome":"Patrícia","feitos":2,"dias":[{"data":"06/10/2026","duracaoMin":46},{"data":"07/10/2026","duracaoMin":46},{"data":"08/10/2026","duracaoMin":51},{"data":"10/10/2026","duracaoMin":93},{"data":"12/10/2026","duracaoMin":88},{"data":"13/10/2026","duracaoMin":44},{"data":"14/10/2026","duracaoMin":44},{"data":"16/10/2026","duracaoMin":47},{"data":"18/10/2026","duracaoMin":59},{"data":"20/10/2026","duracaoMin":66},{"data":"22/10/2026","duracaoMin":50},{"data":"23/10/2026","duracaoMin":95},{"data":"24/10/2026","duracaoMin":172},{"data":"26/10/2026","duracaoMin":44},{"data":"27/10/2026","duracaoMin":48},{"data":"28/10/2026","duracaoMin":39},{"data":"29/10/2026","duracaoMin":71},{"data":"30/10/2026","duracaoMin":171},{"data":"31/10/2026","duracaoMin":71},{"data":"02/11/2026","duracaoMin":84},{"data":"03/11/2026","duracaoMin":52},{"data":"05/11/2026","duracaoMin":43},{"data":"06/11/2026","duracaoMin":136},{"data":"07/11/2026","duracaoMin":45},{"data":"09/11/2026","duracaoMin":85},{"data":"10/11/2026","duracaoMin":52},{"data":"12/11/2026","duracaoMin":48}]},{"nome":"Luíza","feitos":3,"dias":[{"data":"06/10/2026","duracaoMin":36},{"data":"07/10/2026","duracaoMin":84},{"data":"12/10/2026","duracaoMin":30},{"data":"14/10/2026","duracaoMin":96},{"data":"15/10/2026","duracaoMin":42},{"data":"19/10/2026","duracaoMin":18},{"data":"21/10/2026","duracaoMin":30},{"data":"22/10/2026","duracaoMin":30},{"data":"24/10/2026","duracaoMin":36},{"data":"25/10/2026","duracaoMin":30},{"data":"28/10/2026","duracaoMin":30},{"data":"29/10/2026","duracaoMin":42},{"data":"30/10/2026","duracaoMin":72},{"data":"31/10/2026","duracaoMin":18},{"data":"02/11/2026","duracaoMin":60},{"data":"03/11/2026","duracaoMin":60},{"data":"04/11/2026","duracaoMin":42},{"data":"05/11/2026","duracaoMin":90},{"data":"06/11/2026","duracaoMin":48},{"data":"07/11/2026","duracaoMin":42},{"data":"08/11/2026","duracaoMin":42},{"data":"09/11/2026","duracaoMin":18},{"data":"12/11/2026","duracaoMin":24},{"data":"13/11/2026","duracaoMin":41},{"data":"14/11/2026","duracaoMin":40}]}],"status":"Sim","vaiAte":"16/11/2026","historico":[{"fase":"Fase 1","meta":3,"vaiAte":"12/10/2026","feitos":[5,3],"status":"Sim"},{"fase":"Fase 2","meta":4,"vaiAte":"19/10/2026","feitos":[4,3],"status":"Não"},{"fase":"Fase 2","meta":4,"vaiAte":"26/10/2026","feitos":[5,4],"status":"Sim"},{"fase":"Fase 3","meta":5,"vaiAte":"02/11/2026","feitos":[6,5],"status":"Sim"},{"fase":"Fase 4","meta":5,"vaiAte":"09/11/2026","feitos":[5,7],"status":"Sim"},{"fase":"Fase 1","meta":3,"vaiAte":"16/11/2026","feitos":[2,3],"status":"Aguarde"}]}],"arquivadas":[]};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const ST={"Sim":"#2f9e5f","Não":"#b33b3b","Aguarde":"#5a5a4a","Pausado":"#8a6a1a"};
+const pill=s=>'<span class="b" style="background:'+(ST[s]||'#4a4a4a')+'">'+esc(s)+'</span>';
+const min=m=>m==null?'':m+' min';
+function dias(p,todos){const arr=p.dias.slice().reverse();const v=todos?arr:arr.slice(0,7);
+ return '<ul class="dias">'+v.map(x=>'<li><span>'+esc(x.data)+'</span><span class="num">'+min(x.duracaoMin)+'</span></li>').join('')+'</ul>';}
+function card(x,i){
+ const ciclo='Ciclo '+x.ciclo+(x.ciclosCompletos?' ('+x.ciclosCompletos+' completo'+(x.ciclosCompletos>1?'s':'')+')':'');
+ const pes=x.pessoas.map(p=>{const pct=Math.min(100,p.feitos/x.meta*100);return '<div class="pessoa"><div class="nm"><span>'+esc(p.nome)+'</span><span class="num">'+p.feitos+'/'+x.meta+' feitos</span></div><div class="trilho"><div class="enche" style="width:'+pct+'%"></div></div></div>'}).join('');
+ const det=x.pessoas.map((p,j)=>'<h3>'+esc(p.nome)+' · '+p.feitos+'/'+x.meta+' nesta fase</h3><div data-p="'+j+'">'+dias(p,false)+'</div>'+(p.dias.length>7?'<button class="mais" data-i="'+i+'" data-j="'+j+'">Ver histórico completo ('+p.dias.length+' dias)</button>':'')).join('')+
+ '<h3>Histórico completo (planilha da mentora)</h3><ul class="hist">'+x.historico.slice().reverse().map(h=>'<li><span>'+esc(h.fase)+', '+h.meta+' feitos <span class="f">· vai até '+esc(h.vaiAte)+'</span><br><span class="f">'+x.pessoas.map((p,j)=>esc(p.nome)+': '+(h.feitos[j]??'–')).join(' · ')+'</span></span><span>'+pill(h.status)+'</span></li>').join('')+'</ul>';
+ return '<div class="card"><button class="linha" aria-expanded="false"><div class="topo"><span class="nome">'+esc(x.dupla)+'<span class="seta">›</span></span>'+pill(x.status)+'</div>'+
+ '<div class="meta">'+esc(x.fase)+' · meta '+x.meta+' feitos · vai até '+esc(x.vaiAte)+'<br>'+ciclo+'</div>'+pes+'</button><div class="det">'+det+'</div></div>';
+}
+const L=document.getElementById('lista');
+L.innerHTML=DADOS.ativas.map(card).join('')||'<p class="vazio">Nenhuma dupla ativa.</p>';
+L.addEventListener('click',e=>{
+ const m=e.target.closest('button.mais');
+ if(m){const p=DADOS.ativas[m.dataset.i].pessoas[m.dataset.j];m.previousElementSibling.innerHTML=dias(p,true);m.remove();return}
+ const b=e.target.closest('button.linha');if(!b)return;const ab=b.parentElement.classList.toggle('aberto');b.setAttribute('aria-expanded',ab)});
+</script>
+</body>
+</html>
