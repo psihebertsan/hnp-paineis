@@ -1,1632 +1,1736 @@
 {
-  "atualizado_em": "2026-11-15T04:07:35.327Z",
-  "atualizacao_texto": "15 de novembro de 2026",
-  "meta": 17,
-  "ciclo_numero": 1,
-  "hiato": false,
-  "dia_do_ciclo": 20,
-  "ciclo_inicio": "2026-10-27",
-  "contagem_ate": "2026-11-14",
-  "ranking": [
+ "atualizado_em": "2026-11-24T04:10:43.000Z",
+ "atualizacao_texto": "24 de novembro de 2026",
+ "meta": 17,
+ "ciclo_numero": 1,
+ "hiato": true,
+ "dia_do_ciclo": 29,
+ "ciclo_inicio": "2026-10-27",
+ "contagem_ate": "2026-11-23",
+ "ranking": [
+  {
+   "posicao": 1,
+   "nome": "Mariana Farias",
+   "pontos": 25,
+   "status": "Conquistei",
+   "experiencia": "Mag'o ⭐⭐⭐⭐, Soberano",
+   "acumulados_28d": 391,
+   "feitos": [
     {
-      "posicao": 1,
-      "nome": "Júlia E",
-      "pontos": 18,
-      "status": "Conquistei",
-      "experiencia": "Mag'o, Aprendiz",
-      "acumulados_28d": 62,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-01",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-07",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-08",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-14",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-10-27",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 2,
-      "nome": "Lisiane",
-      "pontos": 18,
-      "status": "Conquistei",
-      "experiencia": "Mag'o, Soberano",
-      "acumulados_28d": 120,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-01",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-06",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-07",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-14",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 3,
-      "nome": "Amanda Ribeiro",
-      "pontos": 17,
-      "status": "Conquistei",
-      "experiencia": "Mag'o ⭐⭐⭐, Herói",
-      "acumulados_28d": 281,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-01",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-06",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-14",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 4,
-      "nome": "Mariana Farias",
-      "pontos": 16,
-      "status": "Disputando",
-      "experiencia": "Mag'o ⭐⭐⭐⭐, Épico",
-      "acumulados_28d": 391,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-01",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-08",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-14",
-          "fonte": "discord"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-10-31",
+     "fonte": "discord"
     },
     {
-      "posicao": 5,
-      "nome": "Ana, AL",
-      "pontos": 14,
-      "status": "Disputando",
-      "experiencia": "Mag'o HEXA, Especialista",
-      "acumulados_28d": 510,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-10-28",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-01",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-06",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-14",
-          "fonte": "discord"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-01",
+     "fonte": "discord"
     },
     {
-      "posicao": 6,
-      "nome": "Luíza",
-      "pontos": 14,
-      "status": "Disputando",
-      "experiencia": "Mag'o, Soberano",
-      "acumulados_28d": 124,
-      "feitos": [
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-06",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-07",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-08",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-02",
+     "fonte": "discord"
     },
     {
-      "posicao": 7,
-      "nome": "Patrícia Madeira",
-      "pontos": 13,
-      "status": "Disputando",
-      "experiencia": "Veterano",
-      "acumulados_28d": 9,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-31",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-02",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-03",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-06",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-07",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-03",
+     "fonte": "discord"
     },
     {
-      "posicao": 8,
-      "nome": "Luiz Gustavo",
-      "pontos": 10,
-      "status": "Disputando",
-      "experiencia": "Herói",
-      "acumulados_28d": 5,
-      "feitos": [
-        {
-          "data": "2026-10-28",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-29",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-10-30",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-07",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-08",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-09",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-04",
+     "fonte": "discord"
     },
     {
-      "posicao": 9,
-      "nome": "Érika",
-      "pontos": 7,
-      "status": "Disputando",
-      "experiencia": "Mag'o, Aprendiz",
-      "acumulados_28d": 73,
-      "feitos": [
-        {
-          "data": "2026-11-02",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-07",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-10",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "whatsapp"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-05",
+     "fonte": "discord"
     },
     {
-      "posicao": 10,
-      "nome": "Veu",
-      "pontos": 5,
-      "status": "Disputando",
-      "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Herói",
-      "acumulados_28d": 433,
-      "feitos": [
-        {
-          "data": "2026-11-02",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-04",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-11",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-12",
-          "fonte": "discord"
-        },
-        {
-          "data": "2026-11-13",
-          "fonte": "discord"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-08",
+     "fonte": "discord"
     },
     {
-      "posicao": 11,
-      "nome": "Adna",
-      "pontos": 1,
-      "status": "Disputando",
-      "experiencia": "Mag'o, Iniciante",
-      "acumulados_28d": 69,
-      "feitos": [
-        {
-          "data": "2026-10-27",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-09",
+     "fonte": "discord"
     },
     {
-      "posicao": 12,
-      "nome": "Cíntia Bispo",
-      "pontos": 1,
-      "status": "Disputando",
-      "experiencia": "Herói",
-      "acumulados_28d": 14,
-      "feitos": [
-        {
-          "data": "2026-11-05",
-          "fonte": "whatsapp"
-        }
-      ],
-      "feitos_completos": true
+     "data": "2026-11-10",
+     "fonte": "discord"
     },
     {
-      "posicao": 13,
-      "nome": "Carol Azenha",
-      "pontos": 0,
-      "status": "Disputando",
-      "experiencia": "Mag'o ⭐⭐⭐, Lenda",
-      "acumulados_28d": 259,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-11",
+     "fonte": "discord"
     },
     {
-      "posicao": 14,
-      "nome": "Hebert",
-      "pontos": 0,
-      "status": "Disputando",
-      "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Épico",
-      "acumulados_28d": 480,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-12",
+     "fonte": "discord"
     },
     {
-      "posicao": 15,
-      "nome": "Larissa Mattos",
-      "pontos": 0,
-      "status": "Disputando",
-      "experiencia": "Veterano",
-      "acumulados_28d": 24,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-13",
+     "fonte": "discord"
     },
     {
-      "posicao": 16,
-      "nome": "Taciane",
-      "pontos": 0,
-      "status": "Disputando",
-      "experiencia": "Mag'o ⭐⭐⭐⭐, Elite",
-      "acumulados_28d": 398,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-14",
+     "fonte": "discord"
     },
     {
-      "posicao": 17,
-      "nome": "Águeda",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 10,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-15",
+     "fonte": "discord"
     },
     {
-      "posicao": 18,
-      "nome": "Alicia Gomes",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 9,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-16",
+     "fonte": "discord"
     },
     {
-      "posicao": 19,
-      "nome": "Alinik",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 1,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-17",
+     "fonte": "discord"
     },
     {
-      "posicao": 20,
-      "nome": "Amanda Araújo",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 30,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-18",
+     "fonte": "discord"
     },
     {
-      "posicao": 21,
-      "nome": "Ana Morais",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o ⭐⭐⭐, Elite",
-      "acumulados_28d": 246,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-19",
+     "fonte": "discord"
     },
     {
-      "posicao": 22,
-      "nome": "Ana Paula",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 12,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-20",
+     "fonte": "discord"
     },
     {
-      "posicao": 23,
-      "nome": "Ana, RS",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Veterano",
-      "acumulados_28d": 64,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-21",
+     "fonte": "discord"
     },
     {
-      "posicao": 24,
-      "nome": "Andreza Rodrigues",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-22",
+     "fonte": "discord"
     },
     {
-      "posicao": 25,
-      "nome": "Angélica",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Lenda",
-      "acumulados_28d": 121,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 26,
-      "nome": "Ariane",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Aprendiz",
-      "acumulados_28d": 78,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 27,
-      "nome": "Bárbara",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 5,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 28,
-      "nome": "Brenda",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 5,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 29,
-      "nome": "Bruna",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 13,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 30,
-      "nome": "Bruna/PE",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Lenda",
-      "acumulados_28d": 42,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 31,
-      "nome": "Camila",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 20,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 32,
-      "nome": "Camila Faria",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Lenda",
-      "acumulados_28d": 49,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 33,
-      "nome": "Camila Rodrigues",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 2,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 34,
-      "nome": "Carla",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 19,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 35,
-      "nome": "Carlos",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 31,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 36,
-      "nome": "Carolina A",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 37,
-      "nome": "Cinthia Lara",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Lenda",
-      "acumulados_28d": 54,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 38,
-      "nome": "Cintia Botelho",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Aprendiz",
-      "acumulados_28d": 83,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 39,
-      "nome": "Clara Mlsa",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 2,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 40,
-      "nome": "Cristiane Gonçalves",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 5,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 41,
-      "nome": "Crys",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 20,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 42,
-      "nome": "Dani",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o ⭐, Soberano",
-      "acumulados_28d": 140,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 43,
-      "nome": "Daniel",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 13,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 44,
-      "nome": "Daniel Almeida",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 11,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 45,
-      "nome": "Daniele da Silva Goncalves",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 46,
-      "nome": "Dayane Matos",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 47,
-      "nome": "Denise",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 3,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 48,
-      "nome": "Diana",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 2,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 49,
-      "nome": "Domingos",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 32,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 50,
-      "nome": "Elaine",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Mestre",
-      "acumulados_28d": 106,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 51,
-      "nome": "Eliane Carvalho",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 13,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 52,
-      "nome": "Emmily",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 1,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 53,
-      "nome": "Felipe",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o ⭐, Especialista",
-      "acumulados_28d": 199,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 54,
-      "nome": "Felipe Assunção",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 2,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 55,
-      "nome": "Fernanda",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 12,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 56,
-      "nome": "Fran",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Veterano",
-      "acumulados_28d": 99,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 57,
-      "nome": "Franci",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 1,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 58,
-      "nome": "Gabriela dos Santos",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 59,
-      "nome": "Giovanna",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 12,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 60,
-      "nome": "Gisele",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 21,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 61,
-      "nome": "Hai",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 15,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 62,
-      "nome": "Isabela",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Herói",
-      "acumulados_28d": 16,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 63,
-      "nome": "Jacke",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Soberano",
-      "acumulados_28d": 151,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 64,
-      "nome": "Joy",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 13,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 65,
-      "nome": "Júlia Stange",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 5,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 66,
-      "nome": "Juliana",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Herói",
-      "acumulados_28d": 102,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 67,
-      "nome": "Karol",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Elite",
-      "acumulados_28d": 108,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 68,
-      "nome": "Larissa Schulz",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 69,
-      "nome": "Letícia",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o, Épico",
-      "acumulados_28d": 141,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 70,
-      "nome": "Letícia Yonekura",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mestre",
-      "acumulados_28d": 51,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 71,
-      "nome": "Lícia",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 26,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 72,
-      "nome": "Lívia",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Elite",
-      "acumulados_28d": 42,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 73,
-      "nome": "Luís",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 1,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 74,
-      "nome": "Maíra",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 1,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 75,
-      "nome": "Mariana Cordeiro",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 27,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 76,
-      "nome": "Mariana Pacheco",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 29,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 77,
-      "nome": "Mariana Patrocínio",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mestre",
-      "acumulados_28d": 40,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 78,
-      "nome": "Michelle",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 37,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 79,
-      "nome": "Mirela",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 28,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 80,
-      "nome": "Nat Pantaleão",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 5,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 81,
-      "nome": "Natália",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mestre",
-      "acumulados_28d": 38,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 82,
-      "nome": "Nayra",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 83,
-      "nome": "Neftali",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Soberano",
-      "acumulados_28d": 63,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 84,
-      "nome": "Nícia",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 85,
-      "nome": "Paola",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o ⭐, Épico",
-      "acumulados_28d": 197,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 86,
-      "nome": "Patrícia",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 29,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 87,
-      "nome": "Rafael",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Elite",
-      "acumulados_28d": 43,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 88,
-      "nome": "Rafael Eduardo",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Aprendiz",
-      "acumulados_28d": 10,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 89,
-      "nome": "Raíssa",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 29,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 90,
-      "nome": "Raíssa G",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 21,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 91,
-      "nome": "Raíssa Sena",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 2,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 92,
-      "nome": "Rodrigo",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 23,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 93,
-      "nome": "Samira",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 94,
-      "nome": "Sanny",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o ⭐, Lenda",
-      "acumulados_28d": 121,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 95,
-      "nome": "Simone Ribeiro",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 96,
-      "nome": "Sylas",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Mag'o ⭐⭐⭐⭐, Elite",
-      "acumulados_28d": 322,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 97,
-      "nome": "Thainá",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Veterano",
-      "acumulados_28d": 26,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 98,
-      "nome": "Vanessa",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Elite",
-      "acumulados_28d": 33,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 99,
-      "nome": "Wanessa",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Especialista",
-      "acumulados_28d": 33,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 100,
-      "nome": "Yasmin",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Elite",
-      "acumulados_28d": 53,
-      "feitos": [],
-      "feitos_completos": true
-    },
-    {
-      "posicao": 101,
-      "nome": "Zabelle Cabral",
-      "pontos": 0,
-      "status": "Assistindo",
-      "experiencia": "Iniciante",
-      "acumulados_28d": 0,
-      "feitos": [],
-      "feitos_completos": true
+     "data": "2026-11-23",
+     "fonte": "discord"
     }
-  ],
-  "top10": [
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 2,
+   "nome": "Júlia E",
+   "pontos": 19,
+   "status": "Conquistei",
+   "experiencia": "Mag'o, Aprendiz",
+   "acumulados_28d": 62,
+   "feitos": [
     {
-      "posicao": 1,
-      "nome": "Ana, AL",
-      "acumulados_28d": 510,
-      "experiencia": "Mag'o HEXA, Especialista"
+     "data": "2026-10-27",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 2,
-      "nome": "Hebert",
-      "acumulados_28d": 480,
-      "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Épico"
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 3,
-      "nome": "Veu",
-      "acumulados_28d": 433,
-      "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Herói"
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 4,
-      "nome": "Taciane",
-      "acumulados_28d": 398,
-      "experiencia": "Mag'o ⭐⭐⭐⭐, Elite"
+     "data": "2026-10-30",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 5,
-      "nome": "Mariana Farias",
-      "acumulados_28d": 391,
-      "experiencia": "Mag'o ⭐⭐⭐⭐, Épico"
+     "data": "2026-10-31",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 6,
-      "nome": "Sylas",
-      "acumulados_28d": 322,
-      "experiencia": "Mag'o ⭐⭐⭐⭐, Elite"
+     "data": "2026-11-01",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 7,
-      "nome": "Amanda Ribeiro",
-      "acumulados_28d": 281,
-      "experiencia": "Mag'o ⭐⭐⭐, Herói"
+     "data": "2026-11-02",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 8,
-      "nome": "Carol Azenha",
-      "acumulados_28d": 259,
-      "experiencia": "Mag'o ⭐⭐⭐, Lenda"
+     "data": "2026-11-03",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 9,
-      "nome": "Ana Morais",
-      "acumulados_28d": 246,
-      "experiencia": "Mag'o ⭐⭐⭐, Elite"
+     "data": "2026-11-04",
+     "fonte": "whatsapp"
     },
     {
-      "posicao": 10,
-      "nome": "Felipe",
-      "acumulados_28d": 199,
-      "experiencia": "Mag'o ⭐, Especialista"
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-07",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-08",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-09",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-10",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-14",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-21",
+     "fonte": "whatsapp"
     }
-  ]
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 3,
+   "nome": "Lisiane",
+   "pontos": 19,
+   "status": "Conquistei",
+   "experiencia": "Mag'o, Soberano",
+   "acumulados_28d": 120,
+   "feitos": [
+    {
+     "data": "2026-10-27",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-31",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-01",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-02",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-03",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-06",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-07",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-09",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-10",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-14",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-23",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 4,
+   "nome": "Amanda Ribeiro",
+   "pontos": 17,
+   "status": "Conquistei",
+   "experiencia": "Mag'o ⭐⭐⭐, Herói",
+   "acumulados_28d": 281,
+   "feitos": [
+    {
+     "data": "2026-10-27",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-31",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-01",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-02",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-03",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-06",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-09",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-10",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-14",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 5,
+   "nome": "Ana, AL",
+   "pontos": 17,
+   "status": "Conquistei",
+   "experiencia": "Mag'o HEXA, Mestre",
+   "acumulados_28d": 510,
+   "feitos": [
+    {
+     "data": "2026-10-27",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-10-31",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-01",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-02",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-03",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-05",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-06",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-14",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-15",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-18",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-20",
+     "fonte": "discord"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 6,
+   "nome": "Luíza",
+   "pontos": 17,
+   "status": "Conquistei",
+   "experiencia": "Mag'o ⭐, Iniciante",
+   "acumulados_28d": 124,
+   "feitos": [
+    {
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-31",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-02",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-03",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-06",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-07",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-08",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-09",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-21",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-22",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-23",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 7,
+   "nome": "Patrícia Madeira",
+   "pontos": 15,
+   "status": "Disputando",
+   "experiencia": "Veterano",
+   "acumulados_28d": 9,
+   "feitos": [
+    {
+     "data": "2026-10-27",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-31",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-02",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-03",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-06",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-07",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-09",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-10",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-21",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-23",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 8,
+   "nome": "Luiz Gustavo",
+   "pontos": 10,
+   "status": "Disputando",
+   "experiencia": "Herói",
+   "acumulados_28d": 5,
+   "feitos": [
+    {
+     "data": "2026-10-28",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-07",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-08",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-09",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-10",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 9,
+   "nome": "Veu",
+   "pontos": 10,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Veterano",
+   "acumulados_28d": 433,
+   "feitos": [
+    {
+     "data": "2026-11-02",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-12",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-16",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-17",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-18",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-19",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-20",
+     "fonte": "discord"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 10,
+   "nome": "Érika",
+   "pontos": 9,
+   "status": "Disputando",
+   "experiencia": "Mag'o, Aprendiz",
+   "acumulados_28d": 73,
+   "feitos": [
+    {
+     "data": "2026-11-02",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-04",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-07",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-10",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-11",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-13",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-21",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-22",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 11,
+   "nome": "Adna",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Mag'o, Iniciante",
+   "acumulados_28d": 69,
+   "feitos": [
+    {
+     "data": "2026-10-27",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 12,
+   "nome": "Cíntia Bispo",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Herói",
+   "acumulados_28d": 14,
+   "feitos": [
+    {
+     "data": "2026-11-05",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 13,
+   "nome": "Carol Azenha",
+   "pontos": 0,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐⭐⭐, Lenda",
+   "acumulados_28d": 259,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 14,
+   "nome": "Hebert",
+   "pontos": 0,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Épico",
+   "acumulados_28d": 480,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 15,
+   "nome": "Larissa Mattos",
+   "pontos": 0,
+   "status": "Disputando",
+   "experiencia": "Veterano",
+   "acumulados_28d": 24,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 16,
+   "nome": "Taciane",
+   "pontos": 0,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐⭐⭐⭐, Elite",
+   "acumulados_28d": 398,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 17,
+   "nome": "Águeda",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 10,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 18,
+   "nome": "Alicia Gomes",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 9,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 19,
+   "nome": "Alinik",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 1,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 20,
+   "nome": "Amanda Araújo",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 30,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 21,
+   "nome": "Ana Morais",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o ⭐⭐⭐, Elite",
+   "acumulados_28d": 246,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 22,
+   "nome": "Ana Paula",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 12,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 23,
+   "nome": "Ana, RS",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Veterano",
+   "acumulados_28d": 64,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 24,
+   "nome": "Andreza Rodrigues",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 25,
+   "nome": "Angélica",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Lenda",
+   "acumulados_28d": 121,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 26,
+   "nome": "Ariane",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Aprendiz",
+   "acumulados_28d": 78,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 27,
+   "nome": "Bárbara",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 5,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 28,
+   "nome": "Brenda",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 5,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 29,
+   "nome": "Bruna",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 13,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 30,
+   "nome": "Bruna/PE",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Lenda",
+   "acumulados_28d": 42,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 31,
+   "nome": "Camila",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 20,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 32,
+   "nome": "Camila Faria",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Lenda",
+   "acumulados_28d": 49,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 33,
+   "nome": "Camila Rodrigues",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 2,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 34,
+   "nome": "Carla",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 19,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 35,
+   "nome": "Carlos",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 31,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 36,
+   "nome": "Carolina A",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 37,
+   "nome": "Cinthia Lara",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Lenda",
+   "acumulados_28d": 54,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 38,
+   "nome": "Cintia Botelho",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Aprendiz",
+   "acumulados_28d": 83,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 39,
+   "nome": "Clara Mlsa",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 2,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 40,
+   "nome": "Cristiane Gonçalves",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 5,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 41,
+   "nome": "Crys",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 20,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 42,
+   "nome": "Dani",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o ⭐, Soberano",
+   "acumulados_28d": 140,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 43,
+   "nome": "Daniel",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 13,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 44,
+   "nome": "Daniel Almeida",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 11,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 45,
+   "nome": "Daniele da Silva Goncalves",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 46,
+   "nome": "Dayane Matos",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 47,
+   "nome": "Denise",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 3,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 48,
+   "nome": "Diana",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 2,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 49,
+   "nome": "Domingos",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 32,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 50,
+   "nome": "Elaine",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Mestre",
+   "acumulados_28d": 106,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 51,
+   "nome": "Eliane Carvalho",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 13,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 52,
+   "nome": "Emmily",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 1,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 53,
+   "nome": "Felipe",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o ⭐, Especialista",
+   "acumulados_28d": 199,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 54,
+   "nome": "Felipe Assunção",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 2,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 55,
+   "nome": "Fernanda",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 12,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 56,
+   "nome": "Fran",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Veterano",
+   "acumulados_28d": 99,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 57,
+   "nome": "Franci",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 1,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 58,
+   "nome": "Gabriela dos Santos",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 59,
+   "nome": "Giovanna",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 12,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 60,
+   "nome": "Gisele",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 21,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 61,
+   "nome": "Hai",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 15,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 62,
+   "nome": "Isabela",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Herói",
+   "acumulados_28d": 16,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 63,
+   "nome": "Jacke",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Soberano",
+   "acumulados_28d": 151,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 64,
+   "nome": "Joy",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 13,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 65,
+   "nome": "Júlia Stange",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 5,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 66,
+   "nome": "Juliana",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Herói",
+   "acumulados_28d": 102,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 67,
+   "nome": "Karol",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Elite",
+   "acumulados_28d": 108,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 68,
+   "nome": "Larissa Schulz",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 69,
+   "nome": "Letícia",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o, Épico",
+   "acumulados_28d": 141,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 70,
+   "nome": "Letícia Yonekura",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mestre",
+   "acumulados_28d": 51,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 71,
+   "nome": "Lícia",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 26,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 72,
+   "nome": "Lívia",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Elite",
+   "acumulados_28d": 42,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 73,
+   "nome": "Luís",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 1,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 74,
+   "nome": "Maíra",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 1,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 75,
+   "nome": "Mariana Cordeiro",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 27,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 76,
+   "nome": "Mariana Pacheco",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 29,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 77,
+   "nome": "Mariana Patrocínio",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mestre",
+   "acumulados_28d": 40,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 78,
+   "nome": "Michelle",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 37,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 79,
+   "nome": "Mirela",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 28,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 80,
+   "nome": "Nat Pantaleão",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 5,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 81,
+   "nome": "Natália",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mestre",
+   "acumulados_28d": 38,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 82,
+   "nome": "Nayra",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 83,
+   "nome": "Neftali",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Soberano",
+   "acumulados_28d": 63,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 84,
+   "nome": "Nícia",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 85,
+   "nome": "Paola",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o ⭐, Épico",
+   "acumulados_28d": 197,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 86,
+   "nome": "Patrícia",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 29,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 87,
+   "nome": "Rafael",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Elite",
+   "acumulados_28d": 43,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 88,
+   "nome": "Rafael Eduardo",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Aprendiz",
+   "acumulados_28d": 10,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 89,
+   "nome": "Raíssa",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 29,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 90,
+   "nome": "Raíssa G",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 21,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 91,
+   "nome": "Raíssa Sena",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 2,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 92,
+   "nome": "Rodrigo",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 23,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 93,
+   "nome": "Samira",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 94,
+   "nome": "Sanny",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o ⭐, Lenda",
+   "acumulados_28d": 121,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 95,
+   "nome": "Simone Ribeiro",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 96,
+   "nome": "Sylas",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Mag'o ⭐⭐⭐⭐, Elite",
+   "acumulados_28d": 322,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 97,
+   "nome": "Thainá",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Veterano",
+   "acumulados_28d": 26,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 98,
+   "nome": "Vanessa",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Elite",
+   "acumulados_28d": 33,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 99,
+   "nome": "Wanessa",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Especialista",
+   "acumulados_28d": 33,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 100,
+   "nome": "Yasmin",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Elite",
+   "acumulados_28d": 53,
+   "feitos": [],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 101,
+   "nome": "Zabelle Cabral",
+   "pontos": 0,
+   "status": "Assistindo",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [],
+   "feitos_completos": true
+  }
+ ],
+ "top10": [
+  {
+   "posicao": 1,
+   "nome": "Ana, AL",
+   "acumulados_28d": 510,
+   "experiencia": "Mag'o HEXA, Mestre"
+  },
+  {
+   "posicao": 2,
+   "nome": "Hebert",
+   "acumulados_28d": 480,
+   "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Épico"
+  },
+  {
+   "posicao": 3,
+   "nome": "Veu",
+   "acumulados_28d": 433,
+   "experiencia": "Mag'o ⭐⭐⭐⭐⭐, Veterano"
+  },
+  {
+   "posicao": 4,
+   "nome": "Taciane",
+   "acumulados_28d": 398,
+   "experiencia": "Mag'o ⭐⭐⭐⭐, Elite"
+  },
+  {
+   "posicao": 5,
+   "nome": "Mariana Farias",
+   "acumulados_28d": 391,
+   "experiencia": "Mag'o ⭐⭐⭐⭐, Soberano"
+  },
+  {
+   "posicao": 6,
+   "nome": "Sylas",
+   "acumulados_28d": 322,
+   "experiencia": "Mag'o ⭐⭐⭐⭐, Elite"
+  },
+  {
+   "posicao": 7,
+   "nome": "Amanda Ribeiro",
+   "acumulados_28d": 281,
+   "experiencia": "Mag'o ⭐⭐⭐, Herói"
+  },
+  {
+   "posicao": 8,
+   "nome": "Carol Azenha",
+   "acumulados_28d": 259,
+   "experiencia": "Mag'o ⭐⭐⭐, Lenda"
+  },
+  {
+   "posicao": 9,
+   "nome": "Ana Morais",
+   "acumulados_28d": 246,
+   "experiencia": "Mag'o ⭐⭐⭐, Elite"
+  },
+  {
+   "posicao": 10,
+   "nome": "Felipe",
+   "acumulados_28d": 199,
+   "experiencia": "Mag'o ⭐, Especialista"
+  }
+ ]
 }
