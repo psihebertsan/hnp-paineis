@@ -1,25 +1,90 @@
 {
- "atualizado_em": "2026-11-25T04:00:00.000Z",
- "atualizacao_texto": "25 de novembro de 2026",
+ "atualizado_em": "2026-11-26T04:00:00.000Z",
+ "atualizacao_texto": "26 de novembro de 2026",
  "meta": 17,
  "ciclo_numero": 2,
  "hiato": false,
- "dia_do_ciclo": 1,
+ "dia_do_ciclo": 2,
  "ciclo_inicio": "2026-11-25",
- "contagem_ate": "2026-11-24",
+ "contagem_ate": "2026-11-25",
  "ranking": [
   {
    "posicao": 1,
    "nome": "Mariana Farias",
-   "pontos": 0,
+   "pontos": 1,
    "status": "Disputando",
    "experiencia": "Mag'o ⭐⭐⭐⭐, Soberano",
    "acumulados_28d": 416,
-   "feitos": [],
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "discord"
+    }
+   ],
    "feitos_completos": true
   },
   {
    "posicao": 2,
+   "nome": "Lisiane",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐, Iniciante",
+   "acumulados_28d": 139,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 3,
+   "nome": "Ana, AL",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Mag'o HEXA, Mestre",
+   "acumulados_28d": 527,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "discord"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 4,
+   "nome": "Luíza",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐, Iniciante",
+   "acumulados_28d": 141,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 5,
+   "nome": "Ciro Gontijo",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 6,
    "nome": "Júlia E",
    "pontos": 0,
    "status": "Disputando",
@@ -29,17 +94,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 3,
-   "nome": "Lisiane",
-   "pontos": 0,
-   "status": "Disputando",
-   "experiencia": "Mag'o, Soberano",
-   "acumulados_28d": 139,
-   "feitos": [],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 4,
+   "posicao": 7,
    "nome": "Amanda Ribeiro",
    "pontos": 0,
    "status": "Assistindo",
@@ -49,27 +104,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 5,
-   "nome": "Ana, AL",
-   "pontos": 0,
-   "status": "Disputando",
-   "experiencia": "Mag'o HEXA, Mestre",
-   "acumulados_28d": 527,
-   "feitos": [],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 6,
-   "nome": "Luíza",
-   "pontos": 0,
-   "status": "Disputando",
-   "experiencia": "Mag'o ⭐, Iniciante",
-   "acumulados_28d": 141,
-   "feitos": [],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 7,
+   "posicao": 8,
    "nome": "Patrícia Madeira",
    "pontos": 0,
    "status": "Disputando",
@@ -79,7 +114,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "nome": "Luiz Gustavo",
    "pontos": 0,
    "status": "Assistindo",
@@ -89,7 +124,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "nome": "Veu",
    "pontos": 0,
    "status": "Assistindo",
@@ -99,7 +134,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "nome": "Érika",
    "pontos": 0,
    "status": "Assistindo",
@@ -109,7 +144,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "nome": "Adna",
    "pontos": 0,
    "status": "Assistindo",
@@ -119,7 +154,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "nome": "Cíntia Bispo",
    "pontos": 0,
    "status": "Assistindo",
@@ -129,7 +164,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "nome": "Carol Azenha",
    "pontos": 0,
    "status": "Assistindo",
@@ -139,7 +174,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "nome": "Hebert",
    "pontos": 0,
    "status": "Disputando",
@@ -149,7 +184,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 15,
+   "posicao": 16,
    "nome": "Larissa Mattos",
    "pontos": 0,
    "status": "Assistindo",
@@ -159,7 +194,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "nome": "Taciane",
    "pontos": 0,
    "status": "Assistindo",
@@ -169,7 +204,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "nome": "Águeda",
    "pontos": 0,
    "status": "Assistindo",
@@ -179,7 +214,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "nome": "Alicia Gomes",
    "pontos": 0,
    "status": "Assistindo",
@@ -189,7 +224,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 19,
+   "posicao": 20,
    "nome": "Alinik",
    "pontos": 0,
    "status": "Assistindo",
@@ -199,7 +234,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 20,
+   "posicao": 21,
    "nome": "Amanda Araújo",
    "pontos": 0,
    "status": "Assistindo",
@@ -209,7 +244,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 21,
+   "posicao": 22,
    "nome": "Ana Morais",
    "pontos": 0,
    "status": "Disputando",
@@ -219,7 +254,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 22,
+   "posicao": 23,
    "nome": "Ana Paula",
    "pontos": 0,
    "status": "Assistindo",
@@ -229,7 +264,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 23,
+   "posicao": 24,
    "nome": "Ana, RS",
    "pontos": 0,
    "status": "Assistindo",
@@ -239,7 +274,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 24,
+   "posicao": 25,
    "nome": "Andreza Rodrigues",
    "pontos": 0,
    "status": "Assistindo",
@@ -249,7 +284,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 25,
+   "posicao": 26,
    "nome": "Angélica",
    "pontos": 0,
    "status": "Assistindo",
@@ -259,7 +294,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 26,
+   "posicao": 27,
    "nome": "Ariane",
    "pontos": 0,
    "status": "Assistindo",
@@ -269,7 +304,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 27,
+   "posicao": 28,
    "nome": "Bárbara",
    "pontos": 0,
    "status": "Assistindo",
@@ -279,7 +314,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 28,
+   "posicao": 29,
    "nome": "Brenda",
    "pontos": 0,
    "status": "Assistindo",
@@ -289,7 +324,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 29,
+   "posicao": 30,
    "nome": "Bruna",
    "pontos": 0,
    "status": "Assistindo",
@@ -299,7 +334,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 30,
+   "posicao": 31,
    "nome": "Bruna/PE",
    "pontos": 0,
    "status": "Assistindo",
@@ -309,7 +344,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 31,
+   "posicao": 32,
    "nome": "Camila",
    "pontos": 0,
    "status": "Assistindo",
@@ -319,7 +354,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 32,
+   "posicao": 33,
    "nome": "Camila Faria",
    "pontos": 0,
    "status": "Assistindo",
@@ -329,7 +364,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 33,
+   "posicao": 34,
    "nome": "Camila Rodrigues",
    "pontos": 0,
    "status": "Assistindo",
@@ -339,7 +374,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 34,
+   "posicao": 35,
    "nome": "Carla",
    "pontos": 0,
    "status": "Assistindo",
@@ -349,7 +384,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 35,
+   "posicao": 36,
    "nome": "Carlos",
    "pontos": 0,
    "status": "Assistindo",
@@ -359,7 +394,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 36,
+   "posicao": 37,
    "nome": "Carolina A",
    "pontos": 0,
    "status": "Assistindo",
@@ -369,7 +404,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 37,
+   "posicao": 38,
    "nome": "Cinthia Lara",
    "pontos": 0,
    "status": "Assistindo",
@@ -379,7 +414,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 38,
+   "posicao": 39,
    "nome": "Cintia Botelho",
    "pontos": 0,
    "status": "Assistindo",
@@ -389,7 +424,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 39,
+   "posicao": 40,
    "nome": "Clara Mlsa",
    "pontos": 0,
    "status": "Assistindo",
@@ -399,7 +434,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 40,
+   "posicao": 41,
    "nome": "Cristiane Gonçalves",
    "pontos": 0,
    "status": "Assistindo",
@@ -409,7 +444,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 41,
+   "posicao": 42,
    "nome": "Crys",
    "pontos": 0,
    "status": "Assistindo",
@@ -419,7 +454,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 42,
+   "posicao": 43,
    "nome": "Dani",
    "pontos": 0,
    "status": "Assistindo",
@@ -429,7 +464,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 43,
+   "posicao": 44,
    "nome": "Daniel",
    "pontos": 0,
    "status": "Assistindo",
@@ -439,7 +474,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 44,
+   "posicao": 45,
    "nome": "Daniel Almeida",
    "pontos": 0,
    "status": "Assistindo",
@@ -449,7 +484,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 45,
+   "posicao": 46,
    "nome": "Daniele da Silva Goncalves",
    "pontos": 0,
    "status": "Assistindo",
@@ -459,7 +494,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 46,
+   "posicao": 47,
    "nome": "Dayane Matos",
    "pontos": 0,
    "status": "Assistindo",
@@ -469,7 +504,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 47,
+   "posicao": 48,
    "nome": "Denise",
    "pontos": 0,
    "status": "Assistindo",
@@ -479,7 +514,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 48,
+   "posicao": 49,
    "nome": "Diana",
    "pontos": 0,
    "status": "Assistindo",
@@ -489,7 +524,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 49,
+   "posicao": 50,
    "nome": "Domingos",
    "pontos": 0,
    "status": "Assistindo",
@@ -499,7 +534,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 50,
+   "posicao": 51,
    "nome": "Elaine",
    "pontos": 0,
    "status": "Disputando",
@@ -509,7 +544,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 51,
+   "posicao": 52,
    "nome": "Eliane Carvalho",
    "pontos": 0,
    "status": "Assistindo",
@@ -519,7 +554,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 52,
+   "posicao": 53,
    "nome": "Emmily",
    "pontos": 0,
    "status": "Assistindo",
@@ -529,7 +564,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 53,
+   "posicao": 54,
    "nome": "Felipe",
    "pontos": 0,
    "status": "Assistindo",
@@ -539,7 +574,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 54,
+   "posicao": 55,
    "nome": "Felipe Assunção",
    "pontos": 0,
    "status": "Assistindo",
@@ -549,7 +584,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 55,
+   "posicao": 56,
    "nome": "Fernanda",
    "pontos": 0,
    "status": "Assistindo",
@@ -559,7 +594,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 56,
+   "posicao": 57,
    "nome": "Fran",
    "pontos": 0,
    "status": "Assistindo",
@@ -569,7 +604,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 57,
+   "posicao": 58,
    "nome": "Franci",
    "pontos": 0,
    "status": "Assistindo",
@@ -579,7 +614,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 58,
+   "posicao": 59,
    "nome": "Gabriela dos Santos",
    "pontos": 0,
    "status": "Assistindo",
@@ -589,7 +624,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 59,
+   "posicao": 60,
    "nome": "Giovanna",
    "pontos": 0,
    "status": "Assistindo",
@@ -599,7 +634,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 60,
+   "posicao": 61,
    "nome": "Gisele",
    "pontos": 0,
    "status": "Assistindo",
@@ -609,7 +644,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 61,
+   "posicao": 62,
    "nome": "Hai",
    "pontos": 0,
    "status": "Assistindo",
@@ -619,7 +654,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 62,
+   "posicao": 63,
    "nome": "Isabela",
    "pontos": 0,
    "status": "Assistindo",
@@ -629,7 +664,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 63,
+   "posicao": 64,
    "nome": "Jacke",
    "pontos": 0,
    "status": "Assistindo",
@@ -639,7 +674,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 64,
+   "posicao": 65,
    "nome": "Joy",
    "pontos": 0,
    "status": "Assistindo",
@@ -649,7 +684,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 65,
+   "posicao": 66,
    "nome": "Júlia Stange",
    "pontos": 0,
    "status": "Assistindo",
@@ -659,7 +694,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 66,
+   "posicao": 67,
    "nome": "Juliana",
    "pontos": 0,
    "status": "Assistindo",
@@ -669,7 +704,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 67,
+   "posicao": 68,
    "nome": "Karol",
    "pontos": 0,
    "status": "Assistindo",
@@ -679,7 +714,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 68,
+   "posicao": 69,
    "nome": "Larissa Schulz",
    "pontos": 0,
    "status": "Assistindo",
@@ -689,7 +724,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 69,
+   "posicao": 70,
    "nome": "Letícia",
    "pontos": 0,
    "status": "Assistindo",
@@ -699,7 +734,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 70,
+   "posicao": 71,
    "nome": "Letícia Yonekura",
    "pontos": 0,
    "status": "Assistindo",
@@ -709,7 +744,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 71,
+   "posicao": 72,
    "nome": "Lícia",
    "pontos": 0,
    "status": "Assistindo",
@@ -719,7 +754,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 72,
+   "posicao": 73,
    "nome": "Lívia",
    "pontos": 0,
    "status": "Assistindo",
@@ -729,7 +764,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 73,
+   "posicao": 74,
    "nome": "Luís",
    "pontos": 0,
    "status": "Assistindo",
@@ -739,7 +774,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 74,
+   "posicao": 75,
    "nome": "Maíra",
    "pontos": 0,
    "status": "Assistindo",
@@ -749,7 +784,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 75,
+   "posicao": 76,
    "nome": "Mariana Cordeiro",
    "pontos": 0,
    "status": "Assistindo",
@@ -759,7 +794,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 76,
+   "posicao": 77,
    "nome": "Mariana Pacheco",
    "pontos": 0,
    "status": "Assistindo",
@@ -769,7 +804,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 77,
+   "posicao": 78,
    "nome": "Mariana Patrocínio",
    "pontos": 0,
    "status": "Assistindo",
@@ -779,7 +814,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 78,
+   "posicao": 79,
    "nome": "Michelle",
    "pontos": 0,
    "status": "Assistindo",
@@ -789,7 +824,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 79,
+   "posicao": 80,
    "nome": "Mirela",
    "pontos": 0,
    "status": "Assistindo",
@@ -799,7 +834,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 80,
+   "posicao": 81,
    "nome": "Nat Pantaleão",
    "pontos": 0,
    "status": "Assistindo",
@@ -809,7 +844,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 81,
+   "posicao": 82,
    "nome": "Natália",
    "pontos": 0,
    "status": "Assistindo",
@@ -819,7 +854,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 82,
+   "posicao": 83,
    "nome": "Nayra",
    "pontos": 0,
    "status": "Assistindo",
@@ -829,7 +864,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 83,
+   "posicao": 84,
    "nome": "Neftali",
    "pontos": 0,
    "status": "Assistindo",
@@ -839,7 +874,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 84,
+   "posicao": 85,
    "nome": "Nícia",
    "pontos": 0,
    "status": "Assistindo",
@@ -849,7 +884,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 85,
+   "posicao": 86,
    "nome": "Paola",
    "pontos": 0,
    "status": "Assistindo",
@@ -859,7 +894,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 86,
+   "posicao": 87,
    "nome": "Patrícia",
    "pontos": 0,
    "status": "Assistindo",
@@ -869,7 +904,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 87,
+   "posicao": 88,
    "nome": "Rafael",
    "pontos": 0,
    "status": "Assistindo",
@@ -879,7 +914,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 88,
+   "posicao": 89,
    "nome": "Rafael Eduardo",
    "pontos": 0,
    "status": "Assistindo",
@@ -889,7 +924,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 89,
+   "posicao": 90,
    "nome": "Raíssa",
    "pontos": 0,
    "status": "Assistindo",
@@ -899,7 +934,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 90,
+   "posicao": 91,
    "nome": "Raíssa G",
    "pontos": 0,
    "status": "Assistindo",
@@ -909,7 +944,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 91,
+   "posicao": 92,
    "nome": "Raíssa Sena",
    "pontos": 0,
    "status": "Assistindo",
@@ -919,7 +954,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 92,
+   "posicao": 93,
    "nome": "Rodrigo",
    "pontos": 0,
    "status": "Assistindo",
@@ -929,7 +964,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 93,
+   "posicao": 94,
    "nome": "Samira",
    "pontos": 0,
    "status": "Assistindo",
@@ -939,7 +974,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 94,
+   "posicao": 95,
    "nome": "Sanny",
    "pontos": 0,
    "status": "Assistindo",
@@ -949,7 +984,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 95,
+   "posicao": 96,
    "nome": "Simone Ribeiro",
    "pontos": 0,
    "status": "Assistindo",
@@ -959,7 +994,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 96,
+   "posicao": 97,
    "nome": "Sylas",
    "pontos": 0,
    "status": "Assistindo",
@@ -969,7 +1004,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 97,
+   "posicao": 98,
    "nome": "Thainá",
    "pontos": 0,
    "status": "Assistindo",
@@ -979,7 +1014,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 98,
+   "posicao": 99,
    "nome": "Vanessa",
    "pontos": 0,
    "status": "Assistindo",
@@ -989,7 +1024,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 99,
+   "posicao": 100,
    "nome": "Wanessa",
    "pontos": 0,
    "status": "Assistindo",
@@ -999,7 +1034,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 100,
+   "posicao": 101,
    "nome": "Yasmin",
    "pontos": 0,
    "status": "Assistindo",
@@ -1009,20 +1044,10 @@
    "feitos_completos": true
   },
   {
-   "posicao": 101,
+   "posicao": 102,
    "nome": "Zabelle Cabral",
    "pontos": 0,
    "status": "Assistindo",
-   "experiencia": "Iniciante",
-   "acumulados_28d": 0,
-   "feitos": [],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 102,
-   "nome": "Ciro Gontijo",
-   "pontos": 0,
-   "status": "Disputando",
    "experiencia": "Iniciante",
    "acumulados_28d": 0,
    "feitos": [],
