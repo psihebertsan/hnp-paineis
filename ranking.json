@@ -1,15 +1,72 @@
 {
- "atualizado_em": "2026-11-26T04:00:00.000Z",
- "atualizacao_texto": "26 de novembro de 2026",
+ "atualizado_em": "2026-11-27T10:29:35.000Z",
+ "atualizacao_texto": "27 de novembro de 2026",
  "meta": 17,
  "ciclo_numero": 2,
  "hiato": false,
- "dia_do_ciclo": 2,
+ "dia_do_ciclo": 3,
  "ciclo_inicio": "2026-11-25",
- "contagem_ate": "2026-11-25",
+ "contagem_ate": "2026-11-26",
  "ranking": [
   {
    "posicao": 1,
+   "nome": "Lisiane",
+   "pontos": 2,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐, Iniciante",
+   "acumulados_28d": 139,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-26",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 2,
+   "nome": "Luíza",
+   "pontos": 2,
+   "status": "Disputando",
+   "experiencia": "Mag'o ⭐, Iniciante",
+   "acumulados_28d": 141,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-26",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 3,
+   "nome": "Ciro Gontijo",
+   "pontos": 2,
+   "status": "Disputando",
+   "experiencia": "Iniciante",
+   "acumulados_28d": 0,
+   "feitos": [
+    {
+     "data": "2026-11-25",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-26",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 4,
    "nome": "Mariana Farias",
    "pontos": 1,
    "status": "Disputando",
@@ -24,22 +81,7 @@
    "feitos_completos": true
   },
   {
-   "posicao": 2,
-   "nome": "Lisiane",
-   "pontos": 1,
-   "status": "Disputando",
-   "experiencia": "Mag'o ⭐, Iniciante",
-   "acumulados_28d": 139,
-   "feitos": [
-    {
-     "data": "2026-11-25",
-     "fonte": "whatsapp"
-    }
-   ],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 3,
+   "posicao": 5,
    "nome": "Ana, AL",
    "pontos": 1,
    "status": "Disputando",
@@ -54,62 +96,42 @@
    "feitos_completos": true
   },
   {
-   "posicao": 4,
-   "nome": "Luíza",
-   "pontos": 1,
-   "status": "Disputando",
-   "experiencia": "Mag'o ⭐, Iniciante",
-   "acumulados_28d": 141,
-   "feitos": [
-    {
-     "data": "2026-11-25",
-     "fonte": "whatsapp"
-    }
-   ],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 5,
-   "nome": "Ciro Gontijo",
-   "pontos": 1,
-   "status": "Disputando",
-   "experiencia": "Iniciante",
-   "acumulados_28d": 0,
-   "feitos": [
-    {
-     "data": "2026-11-25",
-     "fonte": "whatsapp"
-    }
-   ],
-   "feitos_completos": true
-  },
-  {
    "posicao": 6,
    "nome": "Júlia E",
-   "pontos": 0,
+   "pontos": 1,
    "status": "Disputando",
    "experiencia": "Mag'o, Aprendiz",
    "acumulados_28d": 81,
-   "feitos": [],
+   "feitos": [
+    {
+     "data": "2026-11-26",
+     "fonte": "whatsapp"
+    }
+   ],
    "feitos_completos": true
   },
   {
    "posicao": 7,
+   "nome": "Patrícia Madeira",
+   "pontos": 1,
+   "status": "Disputando",
+   "experiencia": "Veterano",
+   "acumulados_28d": 24,
+   "feitos": [
+    {
+     "data": "2026-11-26",
+     "fonte": "whatsapp"
+    }
+   ],
+   "feitos_completos": true
+  },
+  {
+   "posicao": 8,
    "nome": "Amanda Ribeiro",
    "pontos": 0,
    "status": "Assistindo",
    "experiencia": "Mag'o ⭐⭐⭐, Herói",
    "acumulados_28d": 298,
-   "feitos": [],
-   "feitos_completos": true
-  },
-  {
-   "posicao": 8,
-   "nome": "Patrícia Madeira",
-   "pontos": 0,
-   "status": "Disputando",
-   "experiencia": "Veterano",
-   "acumulados_28d": 24,
    "feitos": [],
    "feitos_completos": true
   },
