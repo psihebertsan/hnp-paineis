@@ -1,17 +1,17 @@
 {
- "atualizado_em": "2026-11-27T10:29:35.000Z",
- "atualizacao_texto": "27 de novembro de 2026",
+ "atualizado_em": "2026-11-28T04:00:00.000Z",
+ "atualizacao_texto": "28 de novembro de 2026",
  "meta": 17,
  "ciclo_numero": 2,
  "hiato": false,
- "dia_do_ciclo": 3,
+ "dia_do_ciclo": 4,
  "ciclo_inicio": "2026-11-25",
- "contagem_ate": "2026-11-26",
+ "contagem_ate": "2026-11-27",
  "ranking": [
   {
    "posicao": 1,
    "nome": "Lisiane",
-   "pontos": 2,
+   "pontos": 3,
    "status": "Disputando",
    "experiencia": "Mag'o ⭐, Iniciante",
    "acumulados_28d": 139,
@@ -23,6 +23,10 @@
     {
      "data": "2026-11-26",
      "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-27",
+     "fonte": "whatsapp"
     }
    ],
    "feitos_completos": true
@@ -30,7 +34,7 @@
   {
    "posicao": 2,
    "nome": "Luíza",
-   "pontos": 2,
+   "pontos": 3,
    "status": "Disputando",
    "experiencia": "Mag'o ⭐, Iniciante",
    "acumulados_28d": 141,
@@ -41,6 +45,10 @@
     },
     {
      "data": "2026-11-26",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-27",
      "fonte": "whatsapp"
     }
    ],
@@ -68,13 +76,17 @@
   {
    "posicao": 4,
    "nome": "Mariana Farias",
-   "pontos": 1,
+   "pontos": 2,
    "status": "Disputando",
    "experiencia": "Mag'o ⭐⭐⭐⭐, Soberano",
    "acumulados_28d": 416,
    "feitos": [
     {
      "data": "2026-11-25",
+     "fonte": "discord"
+    },
+    {
+     "data": "2026-11-27",
      "fonte": "discord"
     }
    ],
@@ -83,7 +95,7 @@
   {
    "posicao": 5,
    "nome": "Ana, AL",
-   "pontos": 1,
+   "pontos": 2,
    "status": "Disputando",
    "experiencia": "Mag'o HEXA, Mestre",
    "acumulados_28d": 527,
@@ -91,20 +103,28 @@
     {
      "data": "2026-11-25",
      "fonte": "discord"
+    },
+    {
+     "data": "2026-11-27",
+     "fonte": "discord"
     }
    ],
    "feitos_completos": true
   },
   {
    "posicao": 6,
-   "nome": "Júlia E",
-   "pontos": 1,
+   "nome": "Patrícia Madeira",
+   "pontos": 2,
    "status": "Disputando",
-   "experiencia": "Mag'o, Aprendiz",
-   "acumulados_28d": 81,
+   "experiencia": "Veterano",
+   "acumulados_28d": 24,
    "feitos": [
     {
      "data": "2026-11-26",
+     "fonte": "whatsapp"
+    },
+    {
+     "data": "2026-11-27",
      "fonte": "whatsapp"
     }
    ],
@@ -112,11 +132,11 @@
   },
   {
    "posicao": 7,
-   "nome": "Patrícia Madeira",
+   "nome": "Júlia E",
    "pontos": 1,
    "status": "Disputando",
-   "experiencia": "Veterano",
-   "acumulados_28d": 24,
+   "experiencia": "Mag'o, Aprendiz",
+   "acumulados_28d": 81,
    "feitos": [
     {
      "data": "2026-11-26",
